@@ -1,8 +1,13 @@
-export default function RestaurantCard({ name, rating }: any) {
+type Props = {
+  name: string;
+  rating: number;
+};
+
+export default function RestaurantCard({ name, rating }: Props) {
   return (
-    <div className="bg-white p-4 rounded-xl shadow">
+    <div className="bg-white p-4 rounded-xl shadow hover:bg-purple-50 hover:scale-[1.02] transition flex justify-between items-center">
       <h3 className="font-semibold">{name}</h3>
-      <p className="text-green-600">⭐ {rating}</p>
+      <span className="text-yellow-500 font-bold">⭐ {rating}</span>
     </div>
   );
 }

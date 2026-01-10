@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Cheese Pizza",
+    "rating": 4.5,
+    "image": "/pizza.png",
+    "description": "Delicious cheesy pizza with crispy base."
+  },
+  {
+    "id": 2,
+    "name": "Veg Burger",
+    "rating": 4.2,
+    "image": "/burger.png",
+    "description": "Loaded veggie burger with fresh veggies."
+  },
+  {
+    "id": 3,
+    "name": "Chicken Biryani",
+    "rating": 4.8,
+    "image": "/biryani.png",
+    "description": "Aromatic rice with spicy chicken."
+  }
+]
