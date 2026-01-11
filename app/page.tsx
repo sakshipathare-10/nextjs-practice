@@ -46,7 +46,7 @@ export default function Home() {
               name={food.name}
               rating={food.rating}
               image={food.image}
-              onView={() => setSelectedFood(food)} // ✅ NOW WORKS
+              onView={() => setSelectedFood(food)} 
             />
           ))}
         </div>
